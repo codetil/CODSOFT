@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Task_no_3 {
     public static void main(String[] args) {
-        ATM atm = new ATM(new BankAccount(10000)); // Initial balance of 1000
+        ATM atm = new ATM(new BankAccount(10000)); // Initial balance of 10000
         atm.start();
     }
 }
